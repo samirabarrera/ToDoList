@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color: #991c61;
+    background-color: #8a0c51;
 }
 
 ul li {
@@ -67,8 +67,9 @@ ul li ::before{
     border-radius: 10%;
 }
 
-ul #taskList {
+li {
     display: flex;
-
+    flex: column;
     justify-content: space-evenly;
+    margin: 10px;
 }
