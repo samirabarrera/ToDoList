@@ -50,19 +50,25 @@ button {
 }
 
 button:hover {
-    transform: rotate(10%);
+    background-color: #991c61;
 }
 
 ul li {
     list-style: none;
     font-size: 16px;
-    padding: 12px 8px 12px 50px;
+    padding: 15px 50px 12px 50px;
 }
 
-ul li {
+ul li ::before{
     content: '';
     position: absolute;
     height: 28px;
     width: 28px;
-    border-radius: 50%;
+    border-radius: 10%;
+}
+
+ul #taskList {
+    display: flex;
+
+    justify-content: space-evenly;
 }
